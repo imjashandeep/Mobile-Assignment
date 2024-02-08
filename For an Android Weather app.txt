@@ -1,0 +1,32 @@
+For an Android Weather app, here's an initial list of required database collections:
+1.Locations Collection:
+The purpose is to store information about different locations, including their names, coordinates, latitude and longitude, and any other relevant metadata.
+Fields: Location ID(unique identifier)
+Location Name
+Latitude
+Longitude
+Additional metadata, such as country, region, etc.
+
+2.UserPreferences Collection: 
+Function: Store user's settings and preferences, e.g. preference units like Celsius or Fahrenheit as well as their default location.
+Fields: User-unique identifier
+Preferred units., for example, Celsius or Fahrenheit. 
+Default Location (ID of the user's default location)
+
+3.UserLocations Collection: 
+Purpose: Store user-specific locations, such as cities they've searched for or saved as favourites. 
+Fields: User unique identifier.
+Location ID of the location that has been preserved 
+Additional metadata, such as the custom name of the location, and the time at which the location was saved.
+
+4.WeatherData Collection:
+Purpose: Store weather information for each location, including current weather conditions, forecasts, and historical data.
+Fields:
+Location ID (to link with the Locations collection)
+Timestamp (date and time of the weather data)
+Temperature (current temperature)
+Humidity (current humidity level)
+Wind Speed (current wind speed)
+Weather Condition (e.g., sunny, cloudy, rainy)
+Additional forecast data (e.g., hourly forecast, daily forecast)
+

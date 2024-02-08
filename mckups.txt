@@ -1,0 +1,8 @@
+      Here's a list of activities for the Weather App along with mockups:
+1. The main activity: You can display current weather information for your user's position. An option to search for other locations. You can see the weather forecast for the current location by pressing the button.
+2. Search activity: Search bar to input location. Based on the search query, a list of recommended locations. An option to add the chosen location to your favourites.
+3. Weather Details Activity: Detailed view of the weather information for a specified location. This is the temperature, humidity, wind speed, weather conditions and so on. An option to view the forecast for the selected location.
+4. Forecast activities: The location's weather forecast will be displayed. You can see the daily or hourly forecast. The option to view detailed forecasts. 
+5. Settings Activities: Allow users to change the app's settings, such as preferred units and default location: Celsius + Fahrenheit.
+6. About Activity: Information about the app and its developers.
+
